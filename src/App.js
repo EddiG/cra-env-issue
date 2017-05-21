@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import bar from 'foo/bar'; // doesn't work
+
+console.log(bar);
 
 class App extends Component {
   render() {
